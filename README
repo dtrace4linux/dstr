@@ -1,0 +1,8 @@
+This library is a dynamic string library - effectively allowing
+a string to be appended to, and, dynamically allocating memory.
+
+It was built as part of the CRiSP editor, but is a standalone set
+of functions, often used by other tools, created by the author.
+
+Date: 28 Oct 2021
+Author: Paul Fox
