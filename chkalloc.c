@@ -25,7 +25,7 @@
 
 #define DLL_EXPORT
 #define EXPORT_FUNCTION
-#define UNUSED_PARAMETER
+#define UNUSED_PARAMETER(x)
 
 void
 chk_init()
