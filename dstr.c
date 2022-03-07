@@ -20,13 +20,13 @@
 # include	<stdlib.h>
 # include	<string.h>
 # include	<assert.h>
-# include	"../include/dstr.h"
+# include	"dstr.h"
 
 /**********************************************************************/
 /*   The  following  are  defined  to  make  dstr  self  hosting and  */
 /*   independent of other dependencies.				      */
 /**********************************************************************/
-# if !defined(DLL_EXPORT)
+# if STANDALONE
 # define DLL_EXPORT
 # define EXPORT_FUNCTION
 typedef unsigned char LIST;

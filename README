@@ -1,5 +1,12 @@
-This library is a dynamic string library - effectively allowing
-a string to be appended to, and, dynamically allocating memory.
+This is a collection of simple libraries, used by various tools.
+The libraries include:
+
+* chkalloc - a memory protection wrapper around malloc, but not
+  needed with the features now available in malloc and tools like
+  valgrind and the address-sanitizers
+* dstr - dynamic string management
+* linked list support
+* hash - hash table implementation
 
 It was built as part of the CRiSP editor, but is a standalone set
 of functions, often used by other tools, created by the author.
